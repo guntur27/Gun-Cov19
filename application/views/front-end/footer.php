@@ -6,14 +6,14 @@
 </div>
 </div>
 
-<footer class="text-muted text-center">
+<footer class="text-muted text-center bg-light">
     <div class="container">
         <p class="mb-3">Design by &copy; Kelompok Santuy - <?= date('Y'); ?></p>
         <strong>
             <p>Kelas : 06TPLP009</p>
             <p>Guntur Pratama <i>(2016141464)</i></p>
             <p>Revry Azmi M R <i>(2016141110)</i></p>
-            <p>Iwank <i>(-)</i></p>
+            <p>Iwank Ravi Eka S <i>(171011400877)</i></p>
         </strong>
     </div>
 </footer>

@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
     body {
-        font-family: 'Varela Round', sans-serif;
-    }
+		font-family: 'Varela Round', sans-serif;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-align: center;
+		align-items: center;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: #f5f5f5;
+	}
+	
 
 	.jumbotron {
 		padding-top: 3rem;
@@ -18,25 +26,9 @@
 		max-width: 40rem;
 	}
 
-	.navbar .navbar-right .dropdown-toggle::after {
-		display: none;
-		
+	.navbar-header {
+		text-align: center;
 	}
-
-	/*
- * Blog posts
- */
-.blog-post {
-	margin-bottom: 4rem;
-  }
-  .blog-post-title {
-	margin-bottom: .25rem;
-	font-size: 2.5rem;
-  }
-  .blog-post-meta {
-	margin-bottom: 1.25rem;
-	color: #999;
-  }
 
   .protokol .col-lg-4 {
 	margin-bottom: 1.5rem;
@@ -50,6 +42,7 @@
 	margin-right: .75rem;
 	margin-left: .75rem;
   }
+
 	
 	footer {
 		padding-top: 3rem;
@@ -62,22 +55,20 @@
 	  
     
 	@media (min-width: 1200px){
-		.form-inline .input-group {
-			width: 300px;
-			margin-left: 30px;
-		}
+		.featurette-heading {
+			font-size: 50px;
+		  }
 	}
 	@media (max-width: 768px){
-		.navbar .dropdown-menu.form-wrapper {
-			width: 100%;
-			padding: 10px 15px;
-			background: transparent;
-			border: none;
+
+		.bd-placeholder-img-lg {
+			font-size: 3.5rem;
+		  }
+
+		.teknik {
+			margin-right: 20px;
 		}
-		.navbar .form-inline {
-			display: block;
-		}
-		.navbar .nav .btn-primary, .navbar .nav .btn-primary:active {
-			display: block;
-		}
+
+		.featurette-heading {
+			margin-top: 7rem;
 	}
