@@ -1,24 +1,15 @@
 </main>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
 
-<footer class="text-muted text-center bg-light">
-    <div class="container">
-        <p class="mb-3">Design by &copy; Kelompok Santuy - <?= date('Y'); ?></p>
-        <strong>
-            <p>Kelas : 06TPLP009</p>
-            <p>Guntur Pratama <i>(2016141464)</i></p>
-            <p>Revry Azmi M R <i>(2016141110)</i></p>
-            <p>Iwank Ravi Eka S <i>(171011400877)</i></p>
-        </strong>
-    </div>
+
+<footer class="text-muted text-center">
+    <p>Design by &copy; Kelompok Santuy - <?= date('Y'); ?></p>
+    <strong>
+        <p>Kelas : 06TPLP009</p>
+        <p>Guntur Pratama <i>(2016141464)</i></p>
+        <p>Revry Azmi M R <i>(2016141110)</i></p>
+        <p>Iwank Ravi Eka S <i>(171011400877)</i></p>
+    </strong>
 </footer>
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

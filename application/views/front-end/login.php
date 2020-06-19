@@ -30,9 +30,10 @@
         if (validation_errors() || $this->session->flashdata('message')) {
         ?>
             <div class="alert alert-error">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <button type="button" class="close" data-dismiss="alert">
                     <span aria-hidden="true">&times;</span>
                 </button>
+
                 <strong>Warning!</strong>
                 <?php echo validation_errors(); ?>
                 <?php echo $this->session->flashdata('message'); ?>

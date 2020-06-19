@@ -15,7 +15,9 @@ class Home extends CI_Controller
 		$data['user'] = $this->db->get_where('user', ['username' =>
 		$this->session->userdata('username')])->row_array();
 
-		$nasional = json_decode(file_get_contents("https://indonesia-covid-19-api.now.sh/api/"), true);
+
+
+		$nasional = json_decode(file_get_contents("https://corona.coollabs.work/country/indonesia/"), true);
 		$data = [
 			'nasional' => $nasional,
 		];

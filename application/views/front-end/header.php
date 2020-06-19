@@ -23,16 +23,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <header>
             <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
                 <div class="navbar-header d-flex col">
-                    <small class="navbar-brand mt-0">SH-Cov19</small>
+                    <h2 class="navbar-brand mt-0">SH-Cov19</h2>
                     <ul class="nav navbar-nav mt-2 ml-auto">
-                        <small class="mr-2">Teknik Informatika | Univeritas Pamulang</small>
-
+                        <p class="mr-2">Teknik Informatika | Univeritas Pamulang </p>
+                        <a href="<?= base_url('login/logout'); ?>">
+                            <i class="fa fa-sign-out"> Keluar</i>
+                        </a>
                     </ul>
                 </div>
 
-                <a href="<?= base_url('login/logout'); ?>">
-                    <i class="fa fa-sign-out"> Keluar</i>
-                </a>
             </nav>
         </header>
     </div>
