@@ -20,5 +20,3 @@ API (Application Programming Interface) yang digunakan : https://corona.coollabs
 ![image](https://user-images.githubusercontent.com/58071812/85140879-1fee1780-b270-11ea-9cbf-c2fa421bffaf.png)
 ![image](https://user-images.githubusercontent.com/58071812/85140954-3b592280-b270-11ea-8459-cb1a709a3f4f.png)
 ![image](https://user-images.githubusercontent.com/58071812/85141161-8b37e980-b270-11ea-9f3f-a9fe81cd0119.png)
-
-## Jangan Lupa di kasih bintang ya.. Terima kasih :)
