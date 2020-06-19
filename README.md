@@ -7,7 +7,7 @@ API (Application Programming Interface) yang digunakan : https://corona.coollabs
 
 * Dibuat dengan Framework Codeigniter dan Bootstrap v4.5.
 * Database menggunakan : MySQL.
-* Responsive website. Aman untuk user yang lihat menggunakan handphone.
+* Responsive website. Mudah dilihat menggunakan perangkat mobile.
 
 
 ## Screenshot
